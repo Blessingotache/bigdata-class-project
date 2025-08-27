@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+pyspark
+matplotlib
+plotly
+networkx
+nltk
+faiss-cpu
+annoy
