@@ -1,0 +1,34 @@
+﻿# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files
+data/*/raw/*
+data/*/cleaned/*
+!data/*/metadata/
+!data/*/metadata/*.md
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Ignore output artifacts
+results/logs/
+results/tables/*.csv
+results/figures/*.png
+results/figures/*.jpg
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
